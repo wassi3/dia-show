@@ -29,17 +29,3 @@ The `dia.py` script is a dia show program that takes a directory as a parameter 
     -m <monitor_index>: (Optional) The index of the monitor where the images will be displayed. Default is the primary monitor.
     -r: (Optional) Reverse the scroll direction from right to left.
 
-
-## Examples
-
-- Display images from a directory on the primary monitor, scrolling from left to right:
-    ```sh
-    python dia.py "D:\path\art\"
-
-- Display images from a directory on the second monitor, scrolling from left to right:
-   ```sh   
-    python dia.py "D:\path\art\" -m 1
-
-- Display images from a directory on the second monitor, scrolling from right to left:
-   ```sh
-    python dia.py "D:\path\art\" -m 1 -r
