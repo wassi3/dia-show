@@ -18,10 +18,11 @@ The `dia.py` script is a dia show program that takes a directory as a parameter 
    cd dia-show
 
 2. Install requirements
+   ```sh
     pip install -r requirements.txt
 
 ## Usage and command line options
-
+   ```sh
     python dia.py <directory_path> [-m <monitor_index>] [-r]
 
     <directory_path>: The path to the directory containing the images you want to display.
@@ -31,14 +32,14 @@ The `dia.py` script is a dia show program that takes a directory as a parameter 
 
 ## Examples
 
-    Display images from a directory on the primary monitor, scrolling from left to right:
-
+Display images from a directory on the primary monitor, scrolling from left to right:
+    ```sh
     python dia.py "D:\path\art\"
 
-    Display images from a directory on the second monitor, scrolling from left to right:
-
+Display images from a directory on the second monitor, scrolling from left to right:
+   ```sh   
     python dia.py "D:\path\art\" -m 1
 
-    Display images from a directory on the second monitor, scrolling from right to left:
-
+Display images from a directory on the second monitor, scrolling from right to left:
+   ```sh
     python dia.py "D:\path\art\" -m 1 -r
